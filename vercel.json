@@ -1,0 +1,6 @@
+{
+  "framework": null,
+  "installCommand": "echo No install required",
+  "buildCommand": "mkdir -p dist && cp site/index.html site/styles.css site/favicon.svg dist/",
+  "outputDirectory": "dist"
+}
