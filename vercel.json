@@ -2,5 +2,19 @@
   "framework": null,
   "installCommand": "echo No install required",
   "buildCommand": "mkdir -p dist && cp site/index.html site/styles.css site/favicon.svg dist/",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/stemcell",
+      "destination": "https://grand-eternity-ginza.tsuzaka-kens-9295.chatgpt.site/stem-cell"
+    },
+    {
+      "source": "/stemcell/:path*",
+      "destination": "https://grand-eternity-ginza.tsuzaka-kens-9295.chatgpt.site/stem-cell/:path*"
+    },
+    {
+      "source": "/assets/:path*",
+      "destination": "https://grand-eternity-ginza.tsuzaka-kens-9295.chatgpt.site/assets/:path*"
+    }
+  ]
 }
