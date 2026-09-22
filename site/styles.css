@@ -5,3 +5,14 @@
 /* Display the supplied logo without its surrounding whitespace. */
 .brandMark.clinicLogo{position:relative;display:block;flex-shrink:0;overflow:hidden;border:0;background:#fff}
 .clinicLogo img{position:absolute;width:216.2963%;height:auto;max-width:none;left:-58.1481%;top:-74.6667%;display:block}
+
+/* Use the exact lettering from the supplied brand artwork. */
+.clinicWordmark{position:relative;display:block;width:240px;aspect-ratio:960/196;overflow:hidden;flex-shrink:0}
+.clinicWordmark img{position:absolute;width:152.083333%;max-width:none;height:auto;left:-26.041667%;top:-690.816327%;display:block}
+.core.clinicLogo,.rings.clinicLogo{position:relative;overflow:hidden;background:#fff;border:0}
+.philosophyWordmark{position:absolute;bottom:35px}
+.footerBrand{width:max-content;max-width:100%;background:#fff;padding:12px;border-radius:6px}
+.header .brand{flex-shrink:0}
+@media(max-width:1100px){.header nav{gap:18px;margin-right:20px}.clinicWordmark{width:210px}footer{column-gap:25px}}
+@media(max-width:900px){.clinicWordmark{width:220px}.header .brand{gap:10px}.headerCta{flex-shrink:0}.headerCta span{font-size:18px}}
+@media(max-width:380px){.header{padding-inline:12px}.header .clinicWordmark{width:190px}.header .brand{gap:8px}}

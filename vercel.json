@@ -1,7 +1,7 @@
 {
   "framework": null,
   "installCommand": "echo No install required",
-  "buildCommand": "mkdir -p dist && cp site/index.html site/styles.css site/favicon.svg site/clinic-logo.png dist/",
+  "buildCommand": "mkdir -p dist && cp site/index.html site/styles.css site/favicon.svg site/clinic-logo.png site/clinic-brand.png dist/",
   "outputDirectory": "dist",
   "rewrites": [
     {
