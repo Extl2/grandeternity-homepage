@@ -16,3 +16,75 @@
 @media(max-width:1100px){.header nav{gap:18px;margin-right:20px}.clinicWordmark{width:210px}footer{column-gap:25px}}
 @media(max-width:900px){.clinicWordmark{width:220px}.header .brand{gap:10px}.headerCta{flex-shrink:0}.headerCta span{font-size:18px}}
 @media(max-width:380px){.header{padding-inline:12px}.header .clinicWordmark{width:190px}.header .brand{gap:8px}}
+
+/* Online Mounjaro fees */
+.mounjaro-pricing {
+  --mounjaro-accent: #edf8f4;
+  --mounjaro-green: var(--deep);
+  max-width: 960px;
+  margin: 0 auto clamp(56px, 8vw, 100px);
+  padding: 0 16px;
+  scroll-margin-top: 110px;
+}
+.mounjaro-pricing h2 {
+  margin: 0 0 14px;
+  font: 500 clamp(28px, 4vw, 44px)/1.5 "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+.mounjaro-pricing-link,
+.treatment > .treatment-pricing-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--deep);
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  font-size: 14px;
+}
+.mounjaro-fees {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+.mounjaro-fees li {
+  background: var(--mounjaro-accent);
+  border-radius: 6px;
+  color: var(--mounjaro-green);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 10px;
+}
+.mounjaro-prices {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: clamp(13px, 2.3vw, 16px);
+  letter-spacing: normal;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+.mounjaro-prices caption {
+  caption-side: top;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+.mounjaro-prices th,
+.mounjaro-prices td {
+  border: 1px solid var(--line);
+  padding: 10px 2px;
+  text-align: center;
+  white-space: nowrap;
+}
+.mounjaro-prices th {
+  background: var(--mounjaro-accent);
+  color: var(--mounjaro-green);
+}
+.mounjaro-price-note {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
